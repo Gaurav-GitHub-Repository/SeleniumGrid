@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ <test thread-count="1" name="Test">
+	<parameter name="browserName" value="GoogleChrome"></parameter>
+    <classes>
+   		 	<class name="com.app.test.TestCase1"/>
+<!--	  		<class name="com.app.test.TestCase2"/>
+  			<class name="com.app.test.TestCase3"/>
+  			<class name="com.app.test.TestCase4"/>
+  			<class name="com.app.test.TestCase5"/> 
+  			<class name="com.app.test.TestCase6"/>
+  			<class name="com.app.test.TestCase7"/>
+  			<class name="com.app.test.TestCase8"/> 
+  			<class name="com.app.test.TestCase9"/> 
+  			<class name="com.app.test.TestCase10"/>
+  			<class name="com.app.test.TestCase11"/>
+  			<class name="com.app.test.TestCase12"/>
+  			<class name="com.app.test.TestCase13"/>
+  			<class name="com.app.test.TestCase14"/>
+  			<class name="com.app.test.TestCase15"/>
+  			<class name="com.app.test.TestCase16"/>
+ 	 		<class name="com.app.test.TestCase17"/>
+	  		<class name="com.app.test.TestCase18"/>
+  			<class name="com.app.test.TestCase19"/>
+  			<class name="com.app.test.TestCase20"/>
+  			<class name="com.app.test.TestCase21"/>
+  			<class name="com.app.test.TestCase22"/>
+  			<class name="com.app.test.TestCase23"/>
+  			<class name="com.app.test.TestCase24"/>
+  			<class name="com.app.test.TestCase25"/>
+  			<class name="com.app.test.TestCase26"/>
+  			<class name="com.app.test.TestCase27"/>
+  			<class name="com.app.test.TestCase28"/>
+  			<class name="com.app.test.TestCase29"/>-->
+    </classes>
+  </test> 
+  
+  <!--	    <test thread-count="1" name="Firefox">
+		<parameter name="browserName" value="Firefox"></parameter>
+    	<classes>
+    		<class name="com.app.test.TestCase30"/>
+ 			<class name="com.app.test.TestCase31"/>
+  			<class name="com.app.test.TestCase32"/>
+  			<class name="com.app.test.TestCase33"/>
+  			<class name="com.app.test.TestCase34"/> 
+  			<class name="com.app.test.TestCase35"/>
+  			<class name="com.app.test.TestCase36"/>
+  			<class name="com.app.test.TestCase37"/>
+  			<class name="com.app.test.TestCase38"/> 
+    		<class name="com.app.test.TestCase39"/>
+  			<class name="com.app.test.TestCase40"/>
+  			<class name="com.app.test.TestCase41"/>
+  			<class name="com.app.test.TestCase42"/>
+  			<class name="com.app.test.TestCase43"/>
+  			<class name="com.app.test.TestCase44"/>
+  			<class name="com.app.test.TestCase45"/>
+ 	 		<class name="com.app.test.TestCase46"/>
+	  		<class name="com.app.test.TestCase47"/>
+  			<class name="com.app.test.TestCase48"/>
+  			<class name="com.app.test.TestCase49"/>
+  			<class name="com.app.test.TestCase50"/>
+  			<class name="com.app.test.TestCase51"/>
+  			<class name="com.app.test.TestCase52"/>
+  			<class name="com.app.test.TestCase53"/>
+  			<class name="com.app.test.TestCase54"/>
+  			<class name="com.app.test.TestCase55"/>
+  			<class name="com.app.test.TestCase56"/>
+  			<class name="com.app.test.TestCase57"/>
+  			<class name="com.app.test.TestCase58"/> 
+    </classes>
+  </test> -->
+  
+ <!-- 	   <test thread-count="1" name="MicrosoftEdge">
+		   <parameter name="browserName" value="MicrosoftEdge"></parameter>
+    	   <classes>
+   			<class name="com.app.test.TestCase59"/>
+  			<class name="com.app.test.TestCase60"/>
+  			<class name="com.app.test.TestCase61"/>
+  			<class name="com.app.test.TestCase62"/>
+  			<class name="com.app.test.TestCase63"/> 
+  			<class name="com.app.test.TestCase64"/>
+  			<class name="com.app.test.TestCase65"/>
+  			<class name="com.app.test.TestCase66"/>
+  			<class name="com.app.test.TestCase67"/> 
+  			<class name="com.app.test.TestCase68"/>
+  			<class name="com.app.test.TestCase69"/>
+  			<class name="com.app.test.TestCase70"/>
+  			<class name="com.app.test.TestCase71"/>
+  			<class name="com.app.test.TestCase72"/>
+  			<class name="com.app.test.TestCase73"/>
+  			<class name="com.app.test.TestCase74"/>
+ 	 		<class name="com.app.test.TestCase75"/>
+	  		<class name="com.app.test.TestCase76"/>
+  			<class name="com.app.test.TestCase77"/>
+  			<class name="com.app.test.TestCase78"/>
+  			<class name="com.app.test.TestCase79"/>
+  			<class name="com.app.test.TestCase80"/>
+  			<class name="com.app.test.TestCase81"/>
+  			<class name="com.app.test.TestCase82"/>
+  			<class name="com.app.test.TestCase83"/>
+  			<class name="com.app.test.TestCase84"/>
+  			<class name="com.app.test.TestCase85"/>
+  			<class name="com.app.test.TestCase86"/>
+  			<class name="com.app.test.TestCase87"/>
+    </classes>
+  </test> -->
+  
+  <!-- 	    <test thread-count="1" name="InternetExplorer">
+		    <parameter name="browserName" value="InternetExplorer"></parameter>
+            <classes>
+   			<class name="com.app.test.TestCase88"/>
+  			<class name="com.app.test.TestCase89"/>
+  			<class name="com.app.test.TestCase90"/>
+  			<class name="com.app.test.TestCase91"/>
+  			<class name="com.app.test.TestCase92"/> 
+  			<class name="com.app.test.TestCase93"/>
+  			<class name="com.app.test.TestCase94"/>
+  			<class name="com.app.test.TestCase95"/>
+  			<class name="com.app.test.TestCase96"/> 
+  			<class name="com.app.test.TestCase97"/>
+  			<class name="com.app.test.TestCase98"/>
+  			<class name="com.app.test.TestCase99"/>
+  			<class name="com.app.test.TestCase100"/>
+  			<class name="com.app.test.TestCase101"/>
+  			<class name="com.app.test.TestCase102"/>
+  			<class name="com.app.test.TestCase103"/>
+ 	 		<class name="com.app.test.TestCase104"/>
+	  		<class name="com.app.test.TestCase105"/>
+  			<class name="com.app.test.TestCase106"/>
+  			<class name="com.app.test.TestCase107"/>
+  			<class name="com.app.test.TestCase108"/>
+  			<class name="com.app.test.TestCase109"/>
+  			<class name="com.app.test.TestCase110"/>
+  			<class name="com.app.test.TestCase111"/>
+  			<class name="com.app.test.TestCase112"/>
+  			<class name="com.app.test.TestCase113"/>
+  			<class name="com.app.test.TestCase114"/>
+  			<class name="com.app.test.TestCase115"/>
+  			<class name="com.app.test.TestCase116"/>
+    </classes>
+  </test>  -->
+</suite> 
