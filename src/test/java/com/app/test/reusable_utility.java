@@ -18,7 +18,7 @@ public class reusable_utility {
 
 	WebDriver driver;
 	
-	//Method to scroll
+	//Method to scroll using JavascriptExecutor
 	public void scroll(WebDriver driver1)
 	{
 		JavascriptExecutor js = (JavascriptExecutor)driver1;
@@ -39,7 +39,7 @@ public class reusable_utility {
 		File target = new File("C:\\Selenium Temp\\BDD_Cucumber\\SeleniumGrid\\screenshots\\PassedTestCase.png"); 
 		FileHandler.copy(source, target);
 	}
-	//Method to upload file
+	//Method to upload file using robot class
 	public void uploadFile() throws AWTException, InterruptedException, IOException
 	{
 	       Robot robot = new Robot();
